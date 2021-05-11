@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+main {
+  min-height: 84vh;
+}
+.Category button {
+  font-weight: bolder;
+  background-color: #e7e7e7;
+  color: black;
+  font-size: 20px;
+  border: none;
+  display: inline-block;
+  height: 15rem;
+  width: 35%;
+  margin: 10px;
+}
+.Category button:hover {
+  background-color: #b8b6b6;
+  color: black;
+}
+.options {
+  text-align: left;
+}
+.options button {
+  text-align: left;
+  width: 20rem;
+}
+button {
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+}
+button:hover {
+  background-color: #c1cecc;
+  color: white;
+}
+.score {
+  text-align: center;
+}
+.score button {
+  margin: auto;
+  background-color: #b8b6b6;
+  position: relative;
+  top: 3rem;
+}
+.actionbtns {
+  display: flex;
+  margin-left: 40rem;
+  width: 10rem;
+  margin: auto;
+}
+.changeGreenColor {
+  background-color: green;
+}
+.changeRedColor {
+  background-color: red;
+}
+.options h1 {
+  text-align: center;
+}
